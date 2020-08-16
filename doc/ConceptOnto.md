@@ -33,6 +33,7 @@ The class mc:Defect has instances that indicate a defect that arises typically d
 The class mc:Parameters has instances that indicate parameters, variables, constants and process conditions that are useful in describing a process or in defining concept or an equation. For example:
 
       mc:MassDensity is an instance under the class mc:Parameters
+      mc:GrainSize is an instance under the class mc:Parameters
 
 As for now, parametesr are organized in Subclasses such as Empirical, Measured Quantity, Model Parameter, Physical Property, Process Condition, Thermodynamic Property and Universal Constants.
 
@@ -55,19 +56,29 @@ The class mc:Tool has instances that can be either Computational or Experimental
 
 ## Object properties
 
- * Concepts have equations involving parameters. Conversely, a parameter is involved in the equation for a concept.
+### Concept -> Parameter
+Concepts have equations involving parameters. Conversely, a parameter is involved in the equation for a concept.
 
       mc:hasEquationInvolving has mc:Concept as Domain and mc:Parameters as Range
-
       mc:isInvolvedInEquationFor is an inverse of this property.
 
- * Concepts could involve certain behavior of materials. Conversely, a behavior could invole a certain concept as per our understanding.
+If we want to state that the concept of Hall-Petch equation involves grain size, we can use the following triple.
+
+      mc:HallPetchRelationship mc:hasEquationInvolving mc:GrainSize
+
+
+### Concept -> Behavior
+Concepts could involve certain behavior of materials. Conversely, a behavior could invole a certain concept as per our understanding.
 
       mc:isApplicableDuring has mc:Concept as Domain and mc:Behavior as Range
-
       mc:couldInvove is an inverse of this property.
 
- * Concepts are related to certain processes. Conversely, a process could involve a certain concept.
+If we wish to state that the absolute stability criterion for planar solidification is applicable during rapid solidification conditions, we can use the following triple.
+
+      mc:AbsoluteStabilityCriterion mc:isApplicableDuring mc:RapidSolidification
+
+### Concept -> Process
+Concepts are related to certain processes. Conversely, a process could involve a certain concept.
 
       mc:isConceptRelatingToProcess has mc:Concept as Domain and mc:Process as Range
 
