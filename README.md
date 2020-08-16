@@ -14,4 +14,4 @@ This repository will hold the documentation for the heroku flask app [samchitam]
 
 ## Contact
 
-This site is maintained by [Gandham Phanikumar)(https://mme.iitm.ac.in/gphani/). Please drop a line to him if you have suggestions, pull requests or interest in collaboration.
+This site is maintained by [Gandham Phanikumar](https://mme.iitm.ac.in/gphani/). Please drop a line to him if you have suggestions, pull requests or interest in collaboration.
