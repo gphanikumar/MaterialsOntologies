@@ -5,4 +5,4 @@ This repository will hold the documentation for the heroku flask app [samchitam]
 
  * [Bookmarks](bookmarks.md)
  * [Vocabulary](vocab.md)
-
+ * [Acknowledgments](credits.md)
