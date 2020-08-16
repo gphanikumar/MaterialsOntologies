@@ -133,6 +133,7 @@ Property chains are relationships over relationships. We can navigate across the
 We go from Tool to Parameter via Technique by defining the following property chain.
 
       mc:offersTechnique o mc:providesMeasurementOf -> offersTechniqueThatProvidesMeasurementOf
+      mc:measurementProvidedByTechniqueOfferedByTool is an inverse of this property
 
 For example, consider the following triples:
 
