@@ -82,7 +82,6 @@ If we wish to state that the absolute stability criterion for planar solidificat
 Concepts are related to certain processes. Conversely, a process could involve a certain concept.
 
       mc:isConceptRelatingToProcess has mc:Concept as Domain and mc:Process as Range
-
       mc:isProcessInvolvingConcept is an inverse of this property
 
 ### Parameter + Process
@@ -180,7 +179,7 @@ Defects can be classified under SubClasses based on the property mc:formsInProce
 ### Using Tool to classify Parameter
 If a parameter is measured or calculated using a technique that is offered by a tool which is classified under Computational category, then one can call that parameter as a computable parameter. This is achieved using the following equivalent class defintion:
 
-      mc:Computable equivalent to mc:measurementProvidedByTechniqueOfferedByTool some mc:Computational
+      mc:Computable equivalent to (mc:measurementProvidedByTechniqueOfferedByTool some mc:Computational)
 
 Pellet would use this definition to infer that Liquidus Slope as a computable parameter because it is measured (calculated) using the CALPHAD technique which is offered by a tool, say, Thermo Calc that is categorized under the Computational type.
 
@@ -188,7 +187,7 @@ Pellet would use this definition to infer that Liquidus Slope as a computable pa
 
 One can classify a criterion to be, say, digital criterion if it has an equation that involves a parameter inferred (from above) as computable. This is defined using the equivalent class definition as follows:
 
-      mc:DigitalCriterion equivalent to mc:hasEquationInvolving some mc:Computable
+      mc:DigitalCriterion equivalent to (mc:hasEquationInvolving some mc:Computable)
 
 Pellet would use this definition to infer that mc:ReynoldsNumber as a mc:DigitalCriterion because we have asserted that Reynolds number has an equation involving mass density which can be inferred (from above) as a computable parameter.
 
