@@ -57,13 +57,13 @@ The class mc:Tool has instances that can be either Computational or Experimental
 
  * Concepts have equations involving parameters. Conversely, a parameter is involved in the equation for a concept.
 
-      mc:hasEquationInvolving has mc:Concept as Domain and mc:Parameters as Range
-      mc:isInvolvedInEquationFor is an inverse of this property.
+        mc:hasEquationInvolving has mc:Concept as Domain and mc:Parameters as Range
+        mc:isInvolvedInEquationFor is an inverse of this property.
 
  * Concepts could involve certain behavior of materials. Conversely, a behavior could invole a certain concept as per our understanding.
 
-      mc:isApplicableDuring has mc:Concept as Domain and mc:Behavior as Range
-      mc:couldInvove is an inverse of this property.
+        mc:isApplicableDuring has mc:Concept as Domain and mc:Behavior as Range
+        mc:couldInvove is an inverse of this property.
 
 
 
