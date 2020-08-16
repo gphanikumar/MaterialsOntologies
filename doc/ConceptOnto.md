@@ -56,7 +56,7 @@ The class mc:Tool has instances that can be either Computational or Experimental
 
 ## Object properties
 
-### Concept -> Parameter
+### Concept + Parameter
 Concepts have equations involving parameters. Conversely, a parameter is involved in the equation for a concept.
 
       mc:hasEquationInvolving has mc:Concept as Domain and mc:Parameters as Range
@@ -67,21 +67,81 @@ If we want to state that the concept of Hall-Petch equation involves grain size,
       mc:HallPetchRelationship mc:hasEquationInvolving mc:GrainSize
 
 
-### Concept -> Behavior
+### Concept + Behavior
 Concepts could involve certain behavior of materials. Conversely, a behavior could invole a certain concept as per our understanding.
 
       mc:isApplicableDuring has mc:Concept as Domain and mc:Behavior as Range
       mc:couldInvove is an inverse of this property.
 
-If we wish to state that the absolute stability criterion for planar solidification is applicable during rapid solidification conditions, we can use the following triple.
+If we wish to state that the absolute stability criterion for planar solidification is applicable during rapid solidification behavior, we can use the following triple.
 
       mc:AbsoluteStabilityCriterion mc:isApplicableDuring mc:RapidSolidification
 
-### Concept -> Process
+### Concept + Process
 Concepts are related to certain processes. Conversely, a process could involve a certain concept.
 
       mc:isConceptRelatingToProcess has mc:Concept as Domain and mc:Process as Range
 
-      mc:isProcessInvolvingConcept is an inverse of this property.
+      mc:isProcessInvolvingConcept is an inverse of this property
 
+### Parameter + Process
+
+Processes are described by parameters. Conversely, parameters are conditions of certain processes.
+
+      mc:isProcessConditionOf has mc:Parameters as Domain and mc:Process as Range
+      mc:describedByParameter is an inverse of this property
+
+### Process + Defect
+
+Certain processes lead to certain defects. Conversely, certain defects form in certain processes.
+
+      mc:leadsToDefect has mc:Process as Domain and mc:Defect as Range
+      mc:formsInProcess is an inverse of this property
+
+### Tool + Technique
+
+Tools offer techniques. Conversely, techniques are offered by tools.
+
+      mc:offersTechnique has mc:Tool as Domain and mc:Technique as Range
+      mc:offeredByTool is an inverse of this property
+
+### Technique + Parameter
+Techniques provide for calculation or measurement of parameters. Conversely, parameter measurements are provided by certain techniques.
+
+      mc:providesMeasurementOf has mc:Tecnique as Domain and mc:Parameters as Range
+      mc:measurementProvidedBy is an inverse of this property
+
+For example, calorimetry as a technique provides measurement of thermal properties such as heat capacity at constant pressure. This can be stated using the following triple.
+
+      mc:Calorimetry mc:providesMeasurementOf mc:HeatCapacityAtConstantPressure
+
+### Behavior + Process
+Certain behavior of materials take place during certain processes. Conversely, certain processes involve certain behavior of materials.
+
+      mc:takesPlaceDuring has mc:Behavior as Domain and mc:Process as Range
+      mc:involves is an inverse of this property
+
+For example, we can say that the directional behavior of solidication phenomenon takes place during a *process* such as Bridgmann technique. We should actually call it as Bridgmann process to be clear. This is expressed as a triple given below.
+
+      mc:DirectionalSolidification mc:takesPlaceDuring mc:BridgmannTechnique
+
+## Relationships of relationships
+Property chains are relationships over relationships. We can navigate across the knowledge graph in longer hops by defining relationships over relationships. 
+
+### Tool + Parameter 
+
+We go from Tool to Parameter via Technique by defining the following property chain.
+
+      mc:offersTechnique o mc:providesMeasurementOf -> offersTechniqueThatProvidesMeasurementOf
+
+For example, consider the following triples:
+
+      mc:ThermoCalc mc:offersTechnique mc:CALPHAD
+      mc:CALPHAD mc:providesMeasurementOf mc:HeatCapacityAtConstantPressure
+
+when we use the Pellet reasoner, we can find the following inference as a triple:
+
+      mc:ThermoCalc mc:offersTechniqueThatProvidesMeasurementOf mc:HeatCapacityAtConstantPressure
+
+In plain English, this can be stated as follows: Thermo Calc is a tool that offers a technique CALPHAD using which one can calculate a parameter such as heat capacity at constant pressure.
 
