@@ -97,7 +97,7 @@ All properties defined in the pymatgen library for the periodic table of element
 In addition two more properties are defined as follows. The boolean property is_pnictogen (not approved by IUPAC) is set to be True for elements in group 15 and False otherwise. The boolean property is_chalcogen is set to be True for elements in group 16 and False otherwise. The mapping is given in the following table.
 
 | property | Data Property | Range | Label |
-| :---------  | :--------- | :----- |
+| :---------  | :--------- | :----- | :---- |
 | pnictogen | ae:is_pnictogen | xsd:boolean | Boolean value True if the element is in group 15, else False |
 | chalcogen | ae:is_chalcogen | xsd:boolean | Boolean value True if the element is in group 16, else False |
 
