@@ -39,7 +39,7 @@ All properties defined in the pymatgen library for the periodic table of element
 | pymatgen property | Data Property | Range | Label |
 | :---------  | :--------- | :----- | :----- |
 | atomic_mass | ae:atomic_mass | xsd:float | Atomic mass |
-| atomic_orbitals | ae:atomic_arbitals | RDF:Literal | Atomic orbitals |
+| atomic_orbitals | ae:atomic_arbitals | rdfs:Literal | Atomic orbitals as a string |
 | atomic_radius | ae:atomic_radius | xsd:float | Atomic radius in Angstroms |
 | atomic_radius_calculated | ae:atomic_radius_calculated | xsd:float | Atomic radius calculated in Angstroms |
 | average_anionic_radius | ae:average_anionic_radius | xsd:float | Average anionic radius in Angstroms |
