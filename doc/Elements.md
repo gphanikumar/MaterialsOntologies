@@ -38,7 +38,6 @@ All properties defined in the pymatgen library for the periodic table of element
 
 | pymatgen property | Data Property | Range | Label |
 | :---------  | :--------- | :----- | :----- |
-| number | ae:number | xsd:integer | Atomic number |
 | atomic_mass | ae:atomic_mass | xsd:float | Atomic mass |
 | atomic_orbitals | ae:atomic_arbitals | RDF:Literal | Atomic orbitals |
 | atomic_radius | ae:atomic_radius | xsd:float | Atomic radius in Angstroms |
@@ -69,9 +68,29 @@ All properties defined in the pymatgen library for the periodic table of element
 | is_noble_gas | ae:is_noble_gas | xsd:boolean | Boolean value True if the element is noble gas, else False |
 | is_post_transition_metal | ae:is_post_transition_metal | xsd:boolean | Boolean value True if the element is post transition metal gas, else False |
 | is_rare_earth_metal | ae:is_rare_earth_metal | xsd:boolean | Boolean value True if the element is rare earth metal, else False |
+| is_transition_metal | ae:is_transition_metal | xsd:boolean | Boolean value True if the element is transition metal gas, else False |
+| liquid_range | ae_liquid_range | xsd:float | Liquid range as a float in units of Kelving |
 | long_name | ae:long_name | rdfs:Literal | Long name |
-
-
+| max_oxidation_state | ae:max_oxidation_state | xsd:int | Maximum oxidation state |
+| melting_point | ae:melting_point | xsd:float | Melting point in units of Kelvin |
+| mendeleev_no | ae:mendeleev_no | xsd:int | Mendeleev number as an integer from the definition given by D.G. Pettifor in 1984 |
+| min_oxidation_state | ae:min_oxidation_state | xsd:int | Minimum oxidation state |
+| mineral_hardness | ae:mineral_hardness | xsd:float | Mineral hardness |
+| molar_volume | ae:molar_volume | xsd:float | Molar volume as a float in units of cm^3 |
+| number | ae:number | xsd:integer | Atomic number |
+| oxidation_states | ae:oxidation_states | rdfs:Literal | List of oxidation states as a string |
+| poissons_ratio | ae:poissons_ratio | xsd:float | Poissons ratio |
+| reflectivity | ae:reflectivity | xsd:float | Reflectivity |
+| refractive_index | ae:refractive_index | xsd:float | Refractive index |
+| rigidity_moduls | ae:rigidity_modulus | xsd:float | Rigidity modulus as a float in units of GPa |
+| row | ae:row | xsd:int | Row in the periodic table|
+| superconduction_temperature | ae:superconduction_temperature | xsd:float | Superconduction temperature in units of Kelvin |
+| symbol | ae:symbol | rdfs:Literal | Element symbol |
+| thermal_conductivity | ae:thermal_conductivity | xsd:float | Thermal conductivity in units of W/mK |
+| van_der_waals_radius | ae:van_der_waals_radius | xsd:float | Van der Waals radius in units of Angstrom |
+| velocity_of_sound | ae:velocity_of_sound | xsd:float | Velocity of sound in units of m/s |
+| vickers_hardness | ae:vickers_hardness | xsd:float | Vickers hardness in units of MN / m^2 |
+| youngs_modulus | ae:youngs_modulus | xsd:float | Youngs modulus in units of GPa |
 
 ## Manually added properties
 
