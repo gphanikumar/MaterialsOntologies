@@ -1,4 +1,4 @@
-# Elements
+# Periodic Table of Elements
 
 Here we document the ontology Elements which captures the properties of periodic table of elements as described in the python library [pymatgen](https://pymatgen.org/).
 
