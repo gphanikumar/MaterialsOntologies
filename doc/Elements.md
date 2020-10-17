@@ -36,9 +36,14 @@ In addition, individuals with long names have also been created and mapped over 
 
 All properties defined in the pymatgen library for the periodic table of elements are mapped to a data property using the same name and datatype as far as possible. The mapping is given in the following table.
 
-| pymatgen property | Data Property | Data type |
-| :---------  | :--------- | :----- |
-| number | ae:number | xsd:integer |
+| pymatgen property | Data Property | Data type | Label |
+| :---------  | :--------- | :----- | :----- |
+| number | ae:number | xsd:integer | Atomic number |
+| atomic_mass | ae:atomic_mass | xsd:float | Atomic mass |
+| atomic_orbitals | ae:atomic_arbitals | RDF:Literal | Atomic orbitals |
+| atomic_radius | ae:atomic_radius | xsd:float | Atomic radius |
+| long_name | ae:long_name | rdfs:Literal | Long name |
+
 
 
 ## Manually added properties
