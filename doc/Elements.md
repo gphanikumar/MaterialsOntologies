@@ -69,7 +69,7 @@ All properties defined in the pymatgen library for the periodic table of element
 | is_post_transition_metal | ae:is_post_transition_metal | xsd:boolean | Boolean value True if the element is post transition metal gas, else False |
 | is_rare_earth_metal | ae:is_rare_earth_metal | xsd:boolean | Boolean value True if the element is rare earth metal, else False |
 | is_transition_metal | ae:is_transition_metal | xsd:boolean | Boolean value True if the element is transition metal gas, else False |
-| liquid_range | ae_liquid_range | xsd:float | Liquid range as a float in units of Kelving |
+| liquid_range | ae:liquid_range | xsd:float | Liquid range as a float in units of Kelving |
 | long_name | ae:long_name | rdfs:Literal | Long name |
 | max_oxidation_state | ae:max_oxidation_state | xsd:int | Maximum oxidation state |
 | melting_point | ae:melting_point | xsd:float | Melting point in units of Kelvin |
@@ -96,10 +96,10 @@ All properties defined in the pymatgen library for the periodic table of element
 
 In addition two more properties are defined as follows. The boolean property is_pnictogen (not approved by IUPAC) is set to be True for elements in group 15 and False otherwise. The boolean property is_chalcogen is set to be True for elements in group 16 and False otherwise. The mapping is given in the following table.
 
-| property | Data Property | Data type |
+| property | Data Property | Range | Label |
 | :---------  | :--------- | :----- |
-| pnictogen | ae:is_pnictogen | xsd:boolean |
-| chalcogen | ae:is_chalcogen | xsd:boolean |
+| pnictogen | ae:is_pnictogen | xsd:boolean | Boolean value True if the element is in group 15, else False |
+| chalcogen | ae:is_chalcogen | xsd:boolean | Boolean value True if the element is in group 16, else False |
 
 
 Please drop me a line if you find any issue with this mapping. 
