@@ -37,9 +37,8 @@ In addition, individuals with long names have also been created and mapped over 
 All properties defined in the pymatgen library for the periodic table of elements are mapped to a data property using the same name and datatype as far as possible. The mapping is given in the following table.
 
 | pymatgen property | Data Property | Data type |
-| ----------------  | ------------- | --------- |
+| :---------  | :--------- | :----- |
 | number | ae:number | xsd:integer |
-| ----------------  | ------------- | --------- |
 
 
 ## Manually added properties
@@ -47,10 +46,9 @@ All properties defined in the pymatgen library for the periodic table of element
 In addition two more properties are defined as follows. The boolean property is_pnictogen (not approved by IUPAC) is set to be True for elements in group 15 and False otherwise. The boolean property is_chalcogen is set to be True for elements in group 16 and False otherwise. The mapping is given in the following table.
 
 | property | Data Property | Data type |
-| ----------------  | ------------- | --------- |
+| :---------  | :--------- | :----- |
 | pnictogen | ae:is_pnictogen | xsd:boolean |
 | chalcogen | ae:is_chalcogen | xsd:boolean |
-| ----------------  | ------------- | --------- |
 
 
 Please drop me a line if you find any issue with this mapping. 
