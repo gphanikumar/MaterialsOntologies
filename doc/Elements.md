@@ -7,4 +7,8 @@ The OWL files are available at the following locations:
   * [Asserted Axioms](../files/elements-asserted.owl)
   * [Inferred Axioms](../files/elements-inferred.owl)
 
+The namespace used for the individuals and properties in this ontology is as follows:
+    @PREFIX ae: <http://semantic.iitm.ac.in/AlloyOnto/Elements#>
 
+The class defined to hold all the elements is with the IRI:
+    <http://semantic.iitm.ac.in/AlloyOnto/Elements#Elements>
