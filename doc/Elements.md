@@ -22,6 +22,8 @@ The class defined to hold all the elements is with the IRI:
 
      ae:Elements
 
+All the properties are also defined to have the above class as Domain.
+
 Each element is created as an individual in this namespace. Examples are:
 
      ae:Cu a ae:Elements
