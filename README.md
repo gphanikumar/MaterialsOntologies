@@ -8,6 +8,7 @@ This repository will hold the documentation for the heroku flask app [samchitam]
  * [Acknowledgments](credits.md)
 
 ## Documentation
+ * [Periodic Table of Elements](doc/Elements.md)
  * [AlloyOnto](doc/AlloyOnto.md)
  * [ConceptOnto](doc/ConceptOnto.md)
  * [CrystalOnto](doc/CrystalOnto.md)
