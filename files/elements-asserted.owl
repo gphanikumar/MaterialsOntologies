@@ -737,6 +737,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10070.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].6d1.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (6, &apos;d&apos;, 1), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</group>
@@ -793,6 +794,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.89e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10490.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.93</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10.5s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</group>
@@ -848,6 +850,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.31e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2700.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.61</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ne].3s2.3p1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</group>
@@ -907,6 +910,7 @@
         <boiling_point rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2880.0</boiling_point>
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f7.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 7), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</group>
@@ -1035,6 +1039,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3, 3, 5</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1700.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5727.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.18</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d10.4s2.4p3</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 3))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</group>
@@ -1089,6 +1094,7 @@
         <block rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p</block>
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-1, 1</common_oxidation_states>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d10.6s2.6p5</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 5))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</group>
@@ -1136,6 +1142,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.42e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19300.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.54</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d10.6s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</group>
@@ -1190,6 +1197,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2460.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.04</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[He].2s2.2p1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</group>
@@ -1241,6 +1249,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.06e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3510.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.89</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</group>
@@ -1302,6 +1311,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.13e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1848.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.57</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[He].2s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</group>
@@ -1404,6 +1414,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.34e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9780.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.02</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d10.6s2.6p3</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 3))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</group>
@@ -1461,6 +1472,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14780.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f9.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 9), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</group>
@@ -1524,6 +1536,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-1, 1, 3, 5, 7</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">586.0</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.96</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d10.4s2.4p5</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 5))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</group>
@@ -1581,6 +1594,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.1e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-4, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2267.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.55</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[He].2s2.2p2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</group>
@@ -1631,6 +1645,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.23e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1550.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</group>
@@ -1717,6 +1732,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.08e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8650.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.69</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10.5s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</group>
@@ -1770,6 +1786,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6689.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.12</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f1.5d1.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 1), (5, &apos;d&apos;, 1), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</group>
@@ -1835,6 +1852,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15100.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f10.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 10), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</group>
@@ -1897,6 +1915,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-1, 1, 3, 5, 7</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">417.0</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.16</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ne].3s2.3p5</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 5))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</group>
@@ -1944,6 +1963,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13510.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f7.6d1.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 7), (6, &apos;d&apos;, 1), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</group>
@@ -1992,6 +2012,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.3e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2, 3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8900.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.88</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d7.4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 7), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</group>
@@ -2062,6 +2083,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.9e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3, 6</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7140.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.66</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d5.4s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 5), (4, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</group>
@@ -2117,6 +2139,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1938.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1879.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.79</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].6s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (6, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</group>
@@ -2168,6 +2191,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.65e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8920.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d10.4s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</group>
@@ -2270,6 +2294,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.9e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8551.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.22</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f10.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 10), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</group>
@@ -2339,6 +2364,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.22e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9066.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.24</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f12.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 12), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</group>
@@ -2392,6 +2418,7 @@
         <block rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f</block>
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f11.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 11), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</group>
@@ -2437,6 +2464,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2, 3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5244.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f7.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 7), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</group>
@@ -2496,6 +2524,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-1</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">144.0</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.98</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[He].2s2.2p5</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 5))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</group>
@@ -2546,6 +2575,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.18e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2, 3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7874.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.83</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d6.4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 6), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</group>
@@ -2608,6 +2638,7 @@
         <block rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f</block>
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f12.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 12), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</group>
@@ -2647,6 +2678,7 @@
         <block rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s</block>
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</common_oxidation_states>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].7s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (7, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</group>
@@ -2699,6 +2731,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.00012 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5904.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.81</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d10.4s2.4p1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</group>
@@ -2765,6 +2798,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.4e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7901.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f7.5d1.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 7), (5, &apos;d&apos;, 1), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</group>
@@ -2816,6 +2850,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-4, 2, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5323.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.01</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d10.4s2.4p2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</group>
@@ -2879,6 +2914,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-1, 1</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.0</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</group>
@@ -2990,6 +3026,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.9e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13310.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d2.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 2), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</group>
@@ -3043,6 +3080,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1, 2</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1750.0</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d10.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</group>
@@ -3094,6 +3132,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.12e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8795.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.23</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f11.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 11), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</group>
@@ -3164,6 +3203,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-1, 1, 3, 5, 7</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">819.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4940.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.66</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10.5s2.5p5</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 5))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</group>
@@ -3212,6 +3252,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.21e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7310.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.78</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10.5s2.5p1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</group>
@@ -3280,6 +3321,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.4e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22650.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d7.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 7), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</group>
@@ -3351,6 +3393,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2223.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">856.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.82</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].4s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (4, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</group>
@@ -3398,6 +3441,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">209.4</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d10.4s2.4p6</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</group>
@@ -3456,6 +3500,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.21e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6146.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].5d1.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (5, &apos;d&apos;, 1), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</group>
@@ -3534,6 +3579,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3223.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">535.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.98</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[He].2s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</group>
@@ -3587,6 +3633,7 @@
         <block rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d</block>
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f14.7s2.7p1 (tentative)</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 14), (7, &apos;s&apos;, 2), (7, &apos;p&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</group>
@@ -3632,6 +3679,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.9e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9841.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.27</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d1.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 1), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</group>
@@ -3700,6 +3748,7 @@
         <block rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f</block>
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f13.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 13), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</group>
@@ -3761,6 +3810,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1738.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.31</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ne].3s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</group>
@@ -3815,6 +3865,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.17e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2, 4, 7</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7470.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.55</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d5.4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 5), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</group>
@@ -3866,6 +3917,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.8e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4, 6</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10280.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.16</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d5.5s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 5), (5, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</group>
@@ -3927,6 +3979,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3, 3, 5</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">126.2</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.04</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[He].2s2.2p3</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 3))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</group>
@@ -3978,6 +4031,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2573.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">968.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.93</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ne].3s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</group>
@@ -4031,6 +4085,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8570.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d4.5s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 4), (5, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</group>
@@ -4085,6 +4140,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.6e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6800.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.14</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f4.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 4), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</group>
@@ -4208,6 +4264,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.34e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8908.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.91</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d8.4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 8), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</group>
@@ -4279,6 +4336,7 @@
         <block rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f</block>
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f14.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 14), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</group>
@@ -4329,6 +4387,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20450.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.36</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f4.6d1.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 4), (6, &apos;d&apos;, 1), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</group>
@@ -4375,6 +4434,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-2</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">154.6</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.44</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[He].2s2.2p4</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 4))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</group>
@@ -4424,6 +4484,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.1e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22610.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d6.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 6), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</group>
@@ -4492,6 +4553,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3, 3, 5</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">994.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1823.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.19</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ne].3s2.3p3</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 3))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</group>
@@ -4538,6 +4600,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15370.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f2.6d1.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 2), (6, &apos;d&apos;, 1), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</group>
@@ -4593,6 +4656,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.89e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11340.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.33</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d10.6s2.6p2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</group>
@@ -4647,6 +4711,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.18e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12023.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</group>
@@ -4725,6 +4790,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7264.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.13</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f5.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 5), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</group>
@@ -4774,6 +4840,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-2, 2, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9196.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d10.6s2.6p4</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 4))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</group>
@@ -4839,6 +4906,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.7e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6640.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.13</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f3.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 3), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</group>
@@ -4916,6 +4984,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.8e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21090.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.28</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d9.6s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 9), (6, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</group>
@@ -4968,6 +5037,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19816.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.28</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f6.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 6), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</group>
@@ -5017,6 +5087,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5000.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</group>
@@ -5083,6 +5154,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2093.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1532.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.82</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].5s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (5, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</group>
@@ -5135,6 +5207,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.2e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21020.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d5.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 5), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</group>
@@ -5220,6 +5293,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12450.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.28</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d8.5s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 8), (5, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</group>
@@ -5285,6 +5359,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">377.0</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d10.6s2.6p6</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</group>
@@ -5334,6 +5409,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.4e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12370.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d7.5s1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 7), (5, &apos;s&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</group>
@@ -5412,6 +5488,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-2, 2, 4, 6</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1314.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1960.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.58</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ne].3s2.3p4</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 4))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</group>
@@ -5471,6 +5548,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3, 3, 5</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6697.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.05</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10.5s2.5p3</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 3))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</group>
@@ -5524,6 +5602,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.02e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2985.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.36</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d1.4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 1), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</group>
@@ -5586,6 +5665,7 @@
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-2, 2, 4, 6</common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1766.0</critical_temperature>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4819.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.55</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d10.4s2.4p4</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 4))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</group>
@@ -5687,6 +5767,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.6e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-4, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2330.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ne].3s2.3p2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</group>
@@ -5755,6 +5836,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.27e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7353.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.17</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f6.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 6), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</group>
@@ -5808,6 +5890,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.2e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-4, 2, 4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7310.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.96</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10.5s2.5p2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</group>
@@ -5868,6 +5951,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.25e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2630.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.95</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].5s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (5, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</group>
@@ -5936,6 +6020,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.3e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16650.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d3.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 3), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</group>
@@ -5998,6 +6083,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.03e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8219.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f9.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 9), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</group>
@@ -6049,6 +6135,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4, 7</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11500.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d5.5s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 5), (5, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</group>
@@ -6098,6 +6185,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-2, 2, 4, 6</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6240.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10.5s2.5p4</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 4))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</group>
@@ -6175,6 +6263,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11724.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].6d2.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (6, &apos;d&apos;, 2), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</group>
@@ -6253,6 +6342,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.6e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4507.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.54</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d2.4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 2), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</group>
@@ -6323,6 +6413,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.99e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1, 3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11850.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.62</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d10.6s2.6p1</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 1))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</group>
@@ -6377,6 +6468,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.33e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9321.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.25</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f13.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 13), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</group>
@@ -6436,6 +6528,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.39e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19050.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.38</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Rn].5f3.6d1.7s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 10), (6, &apos;s&apos;, 2), (6, &apos;p&apos;, 6), (5, &apos;f&apos;, 3), (6, &apos;d&apos;, 1), (7, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</group>
@@ -6499,6 +6592,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6110.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.63</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d3.4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 3), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</group>
@@ -6561,6 +6655,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.5e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4, 6</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19250.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.36</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.5d4.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (5, &apos;d&apos;, 4), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</group>
@@ -6612,6 +6707,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></common_oxidation_states>
         <critical_temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float">289.7</critical_temperature>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d10.5s2.5p6</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</group>
@@ -6671,6 +6767,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.06e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4472.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.22</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d1.5s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 1), (5, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</group>
@@ -6723,6 +6820,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.63e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6570.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Xe].4f14.6s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 10), (5, &apos;s&apos;, 2), (5, &apos;p&apos;, 6), (4, &apos;f&apos;, 14), (6, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</group>
@@ -6808,6 +6906,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.02e-05 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7140.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.65</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Ar].3d10.4s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</group>
@@ -6862,6 +6961,7 @@
         <coefficient_of_linear_thermal_expansion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.7e-06 K^-1</coefficient_of_linear_thermal_expansion>
         <common_oxidation_states rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</common_oxidation_states>
         <density_of_solid rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6511.0</density_of_solid>
+        <electronegativity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.33</electronegativity>
         <electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Kr].4d2.5s2</electronic_structure>
         <full_electronic_structure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((1, &apos;s&apos;, 2), (2, &apos;s&apos;, 2), (2, &apos;p&apos;, 6), (3, &apos;s&apos;, 2), (3, &apos;p&apos;, 6), (3, &apos;d&apos;, 10), (4, &apos;s&apos;, 2), (4, &apos;p&apos;, 6), (4, &apos;d&apos;, 2), (5, &apos;s&apos;, 2))</full_electronic_structure>
         <group rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</group>
