@@ -1,5 +1,7 @@
 # ConceptOnto
 
+This page is under construction. Please bear. -Phanikumar, October 2020
+
 Here we document the ontology ConceptOnto which builds on the [skos](http://www.w3.org/2004/02/skos/core) vocabulary. This ontology will represent the following aspects of Materials Domain: Materials Concepts, Material Behavior, Material Parameters, Tools, Techniques, Materials Processes and Material Defects. These are implemented as concept schemes. All the instances are organized in a hierarchy of concepts. The different classes defined in this ontology and the relationships will be detailed here. 
 
 Following prefix is used for individuals in this page. All the instances in the ConceptOnto ontology will also be in this space. You can pick up the OWL file from here (under construction).
@@ -29,7 +31,7 @@ For example, solidification is a material behavior concept. This is expressed as
      mc:Solidification rdf:type skos:Concept
      mc:Solidification skos:inScheme mc:MaterialsBehavior
 
-Broader/narrower concepts are described using the skos vocabulary. For example:
+Broader / narrower concepts are described using the skos vocabulary. For example:
 
      mc:AlloySolidification rdf:type skos:Concept
      mc:AlloySolidification skos:inScheme mc:MaterialsBehavior
@@ -37,12 +39,12 @@ Broader/narrower concepts are described using the skos vocabulary. For example:
 
 The following instances are listed as top concepts for the scheme mc:MaterialsBehavior as points of entry for navigation.
 
-     mc:MaterialsBehavior skos:topConceptOf mc:Deformation
-     mc:MaterialsBehavior skos:topConceptOf mc:Diffraction
-     mc:MaterialsBehavior skos:topConceptOf mc:Diffusion
-     mc:MaterialsBehavior skos:topConceptOf mc:PhaseChange
-     mc:MaterialsBehavior skos:topConceptOf mc:ThermodynamicEquilibrium
-     mc:MaterialsBehavior skos:topConceptOf mc:TransportPhenomena
+     mc:MaterialsBehavior skos:hasTopConcept mc:Deformation
+     mc:MaterialsBehavior skos:hasTopConcept mc:Diffraction
+     mc:MaterialsBehavior skos:hasTopConcept mc:Diffusion
+     mc:MaterialsBehavior skos:hasTopConcept mc:PhaseChange
+     mc:MaterialsBehavior skos:hasTopConcept mc:ThermodynamicEquilibrium
+     mc:MaterialsBehavior skos:hasTopConcept mc:TransportPhenomena
 
 Any behavior that a material undergoes / exhibits can be listed in this scheme.
 
@@ -57,26 +59,38 @@ For example, Bragg's law is a concept. This is expressed as:
       mc:BraggLaw rdf:type skos:Concept
       mc:BraggLaw skos:inScheme mc:MaterialsConcept
 
-The following instances are lised as top concepts for the scheme mc:MaterialsConcept as points of entry for navigation.
+The following instances are listed as top concepts for the scheme mc:MaterialsConcept as points of entry for navigation.
 
-      mc:Criteria skos:topConceptOf mc:MaterialsConcept
-      mc:DimensionlessNumbers skos:topConceptOf mc:MaterialsConcept
-      mc:Effects skos:topConceptOf mc:MaterialsConcept
-      mc:Equations skos:topConceptOf mc:MaterialsConcept
-      mc:Laws skos:topConceptOf mc:MaterialsConcept
-      mc:Mechanisms skos:topConceptOf mc:MaterialsConcept
-      mc:Models skos:topConceptOf mc:MaterialsConcept
-      mc:Theorems skos:topConceptOf mc:MaterialsConcept
-      mc:Theory skos:topConceptOf mc:MaterialsConcept
-      mc:Relation skos:topConceptOf mc:MaterialsConcept
-      mc:Rules skos:topConceptOf mc:MaterialsConcept
+      mc:MaterialsConcept skos:hasTopConcept mc:Criteria
+      mc:MaterialsConcept skos:hasTopConcept mc:DimensionlessNumbers
+      mc:MaterialsConcept skos:hasTopConcept mc:Effects
+      mc:MaterialsConcept skos:hasTopConcept mc:Equations
+      mc:MaterialsConcept skos:hasTopConcept mc:Laws
+      mc:MaterialsConcept skos:hasTopConcept mc:Mechanisms
+      mc:MaterialsConcept skos:hasTopConcept mc:Models
+      mc:MaterialsConcept skos:hasTopConcept mc:Theorems
+      mc:MaterialsConcept skos:hasTopConcept mc:Theory
+      mc:MaterialsConcept skos:hasTopConcept mc:Relation
+      mc:MaterialsConcept skos:hasTopConcept mc:Rules
 
 Any theoretical knowledge that describes a material behavior or phenomenon can be listed in this scheme.
 
-### Defect
-The class mc:Defect has instances that indicate a defect that arises typically due to processing. For example:
+### Materials Defect
 
-      mc:ChevronCracking is an instance under the class mc:Defect
+Defects that typically arise out of materials processing are listed under this scheme. 
+
+      mc:MaterialsDefect rdf:type skos:ConceptScheme
+
+For example, Chevron cracking is a defect that arises during extrusion process. This defect can be categorized as follows:
+
+      mc:ChevronCracking rdf:type skos:Concept
+      mc:ChevronCracking skos:inScheme mc:MaterialsDefect
+
+The following instances are listed as top concepts for the scheme mc:MaterialsDefect as points of entry for navigation.
+
+      mc:MaterialsDefect skos:hasTopConcept mc:DrawingDefect
+      mc:MaterialsDefect skos:hasTopConcept mc:ExtrusionDefect
+      mc:MaterialsDefect skos:hasTopConcept mc:CastingDefect
 
 ### Parameters
 The class mc:Parameters has instances that indicate parameters, variables, constants and process conditions that are useful in describing a process or in defining concept or an equation. For example:
