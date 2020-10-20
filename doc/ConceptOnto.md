@@ -2,7 +2,7 @@
 
 Here we document the ontology ConceptOnto which builds on the [skos](http://www.w3.org/2004/02/skos/core) vocabulary. This ontology will represent the following aspects of Materials Domain: Materials Concepts, Material Behavior, Material Parameters, Tools, Techniques, Materials Processes and Material Defects. These are implemented as concept schemes. All the instances are organized in a hierarchy of concepts. The different classes defined in this ontology and the relationships will be detailed here. 
 
-Following prefix is used for individuals in this page.
+Following prefix is used for individuals in this page. All the instances in the ConceptOnto ontology will also be in this space. You can pick up the OWL file from here (under construction).
 
       PREFIX mc: <http://semantic.iitm.ac.in/ConceptOnto#>
 
@@ -17,22 +17,26 @@ Other prefixes used in this ontology are as follows.
 ## Classes
 We use only two classes, namely skos:Concept and skos:ConceptScheme. Individuals in the name space mc: that correspond to concepts of various kind are instances of skos:Concept. Individuals in the name space mc: that correspond to the scheme of categorization are instances of skos:ConceptScheme.
 
-The schemes of categorization are described below in details.
+The schemes of categorization are described below in detail.
 
 ### Materials Behavior
 All concepts that come under Materials Behavior will be categorized under the following scheme.
+
      mc:MaterialsBehavior a skos:ConceptScheme
 
 For example, solidification is a material behavior concept. This is expressed as:
+
      mc:Solidification rdf:type skos:Concept
      mc:Solidification skos:inScheme mc:MaterialsBehavior
 
 Broader/narrower concepts are described using the skos vocabulary. For example:
+
      mc:AlloySolidification rdf:type skos:Concept
      mc:AlloySolidification skos:inScheme mc:MaterialsBehavior
      mc:AlloySolidification skos:broader mc:Solidification
 
 The following instances are listed as skos:topConcept for the scheme mc:MaterialsBehavior.
+
      mc:MaterialsBeavior skos:topConceptOf mc:ThermodynamicEquilibrium
      mc:MaterialsBeavior skos:topConceptOf mc:Diffusion
      mc:MaterialsBeavior skos:topConceptOf mc:TransportPhenomena
