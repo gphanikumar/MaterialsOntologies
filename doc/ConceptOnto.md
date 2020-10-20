@@ -183,15 +183,19 @@ The following instances are listed a s top concepts for this scheme as points of
 
 ## Object properties
 
+We have created 7 schemes of categorizing the concepts in the materials domain. If we wish to map every possible pair, the number of object relationship would be a large number. Here we define relations between those pairs of schemes that are most commonly related in materials domain.
+
 The rationale for naming the relationships is as follows. We take the first two characters of the schemes in which the subject and object are categorized to create the name while the relation rdfs:label will point to the full name of the relationship. 
 
-Eg., CoPa would be a name for the predicate (relationship) that would have Concept as subject and Parameter as object. Following is a list of relationships that are created in the name space mc: for convenience of relating various categories of concepts in this ontology. It is recommended that the relationship is mapped to the broadest concept possible. This is because, as you would see below, a super class axiom is used pass on the relationship to the concepts that are narrower to the object to which the original relationship is asserted.
+Eg., CoPa would be a name for the predicate (relationship) that would have **Co**ncept as subject and **Pa**rameter as object. Following is a list of relationships that are created in the name space mc: for convenience of relating various categories of concepts in this ontology.
 
-The Domain and Range for all these object properties is skos:Concept. 
+I recommend that the relationship be mapped to the broadest concept possible. This is because, as you would see below, a super class axiom is used pass on the relationship to the concepts that are narrower to the object to which the original relationship is asserted. A reasoning engine such as Pellet would then provide the entailments as applicable. The section on transitive relations has examples to explain this better.
+
+The Domain and Range for all the object properties we defined in this ontology is skos:Concept. 
 
 ### Concept + Parameter
 
-**Co**ncepts have equations involving **Pa**rameters. 
+Concepts have equations involving Parameters. 
 
       mc:CoPa rdfs:label "concept involved in equation for parameter"
       Source is a concept listed in scheme mc:MaterialsConcept
@@ -224,6 +228,7 @@ If we wish to state that the absolute stability criterion for planar solidificat
       mc:AbsoluteStabilityCriterion mc:isApplicableDuring mc:RapidSolidification
 
 ### Concept + Process
+
 Concepts are related to certain processes. Conversely, a process could involve a certain concept.
 
       mc:isConceptRelatingToProcess has mc:Concept as Domain and mc:Process as Range
@@ -251,6 +256,7 @@ Tools offer techniques. Conversely, techniques are offered by tools.
       mc:offeredByTool is an inverse of this property
 
 ### Technique + Parameter
+
 Techniques provide for calculation or measurement of parameters. Conversely, parameter measurements are provided by certain techniques.
 
       mc:providesMeasurementOf has mc:Tecnique as Domain and mc:Parameters as Range
@@ -261,6 +267,7 @@ For example, calorimetry as a technique provides measurement of thermal properti
       mc:Calorimetry mc:providesMeasurementOf mc:HeatCapacityAtConstantPressure
 
 ### Behavior + Process
+
 Certain behavior of materials take place during certain processes. Conversely, certain processes involve certain behavior of materials.
 
       mc:takesPlaceDuring has mc:Behavior as Domain and mc:Process as Range
@@ -271,6 +278,7 @@ For example, we can say that the directional behavior of solidication phenomenon
       mc:DirectionalSolidification mc:takesPlaceDuring mc:BridgmannTechnique
 
 ## Relationships of relationships
+
 Property chains are relationships over relationships. We can navigate across the knowledge graph in longer hops by defining relationships over relationships. 
 
 ### Tool + Parameter 
@@ -296,6 +304,7 @@ In plain English, this can be stated as follows: Thermo Calc is a tool that offe
 We can place instances in certain classes based on their properties. Once such class definitions are made, the reasoner will take care of placing the appropriate instances in the defined classes.
 
 ### Using Behavior to classify Concepts
+
 Deformation concept is a class that contains all those concepts that have a property of being applicable during a physical behavior which is classified under deformation behavior. This is defined using the following statement.
 
       mc:DeformationConcept equivalent to mc:Concept and (mc:isApplicableDuring some mc:Deformation)
@@ -315,6 +324,7 @@ Here are some more such definitions.
 
 
 ### Using Process to classify Defects
+
 Defects can be classified under SubClasses based on the property mc:formsInProcess pointing to a SubClass under Processes. Following categories are defined using the equivalent class definitions listed below:
  
      mc:CastingDefects equivalent to mc:Defect and (mc:formsInProcess some mc:CastingProcesses)
@@ -323,6 +333,7 @@ Defects can be classified under SubClasses based on the property mc:formsInProce
      mc:SandCastingDefect equivalent to mc:Defect and (mc:formsInProcess some ExpendableMoldCastingProcesses)
 
 ### Using Tool to classify Parameter
+
 If a parameter is measured or calculated using a technique that is offered by a tool which is classified under Computational category, then one can call that parameter as a computable parameter. This is achieved using the following equivalent class defintion:
 
       mc:Computable equivalent to (mc:measurementProvidedByTechniqueOfferedByTool some mc:Computational)
