@@ -58,6 +58,7 @@ For example, Bragg's law is a concept. This is expressed as:
 
       mc:BraggLaw rdf:type skos:Concept
       mc:BraggLaw skos:inScheme mc:MaterialsConcept
+      mc:BraggLaw skos:broader mc:Laws
 
 The following instances are listed as top concepts for the scheme mc:MaterialsConcept as points of entry for navigation.
 
