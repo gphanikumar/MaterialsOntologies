@@ -20,9 +20,9 @@ We use only two classes, namely skos:Concept and skos:ConceptScheme. Individuals
 The schemes of categorization are described below in detail.
 
 ### Materials Behavior
-All concepts that come under Materials Behavior will be categorized under the following scheme.
+All concepts that come under Materials Behavior such as physical / chemical phenomena will be categorized under the following scheme.
 
-     mc:MaterialsBehavior a skos:ConceptScheme
+     mc:MaterialsBehavior rdf:type skos:ConceptScheme
 
 For example, solidification is a material behavior concept. This is expressed as:
 
@@ -35,19 +35,43 @@ Broader/narrower concepts are described using the skos vocabulary. For example:
      mc:AlloySolidification skos:inScheme mc:MaterialsBehavior
      mc:AlloySolidification skos:broader mc:Solidification
 
-The following instances are listed as skos:topConcept for the scheme mc:MaterialsBehavior.
+The following instances are listed as top concepts for the scheme mc:MaterialsBehavior as points of entry for navigation.
 
-     mc:MaterialsBeavior skos:topConceptOf mc:ThermodynamicEquilibrium
-     mc:MaterialsBeavior skos:topConceptOf mc:Diffusion
-     mc:MaterialsBeavior skos:topConceptOf mc:TransportPhenomena
-     mc:MaterialsBeavior skos:topConceptOf mc:PhaseChange
-     mc:MaterialsBeavior skos:topConceptOf mc:Diffraction
-     mc:MaterialsBeavior skos:topConceptOf mc:Deformation
+     mc:MaterialsBehavior skos:topConceptOf mc:Deformation
+     mc:MaterialsBehavior skos:topConceptOf mc:Diffraction
+     mc:MaterialsBehavior skos:topConceptOf mc:Diffusion
+     mc:MaterialsBehavior skos:topConceptOf mc:PhaseChange
+     mc:MaterialsBehavior skos:topConceptOf mc:ThermodynamicEquilibrium
+     mc:MaterialsBehavior skos:topConceptOf mc:TransportPhenomena
+
+Any behavior that a material undergoes / exhibits can be listed in this scheme.
 
 ### Materials Concept
-The class mc:Concept has instances that indicate a physical understanding or representation of a behavior. SubClasses defined are Criterion, Dimensionless Number, Effects, Equation, Instability, Laws, Mechanism, Model, Paradox, Principles, Relation, Rules, Theorem and Theory. For example:
 
-      mc:AbsoluteStabilityCriterion is an instance under the class mc:Concept
+All concepts that indicate a physical understanding or representation of a behavior are captured in the scheme of categorization MaterialsConcept. 
+
+      mc:MaterialsConcept rdf:type skos:ConceptScheme
+
+For example, Bragg's law is a concept. This is expressed as:
+
+      mc:BraggLaw rdf:type skos:Concept
+      mc:BraggLaw skos:inScheme mc:MaterialsConcept
+
+The following instances are lised as top concepts for the scheme mc:MaterialsConcept as points of entry for navigation.
+
+      mc:Criteria skos:topConceptOf mc:MaterialsConcept
+      mc:DimensionlessNumbers skos:topConceptOf mc:MaterialsConcept
+      mc:Effects skos:topConceptOf mc:MaterialsConcept
+      mc:Equations skos:topConceptOf mc:MaterialsConcept
+      mc:Laws skos:topConceptOf mc:MaterialsConcept
+      mc:Mechanisms skos:topConceptOf mc:MaterialsConcept
+      mc:Models skos:topConceptOf mc:MaterialsConcept
+      mc:Theorems skos:topConceptOf mc:MaterialsConcept
+      mc:Theory skos:topConceptOf mc:MaterialsConcept
+      mc:Relation skos:topConceptOf mc:MaterialsConcept
+      mc:Rules skos:topConceptOf mc:MaterialsConcept
+
+Any theoretical knowledge that describes a material behavior or phenomenon can be listed in this scheme.
 
 ### Defect
 The class mc:Defect has instances that indicate a defect that arises typically due to processing. For example:
