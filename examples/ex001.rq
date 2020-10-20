@@ -1,0 +1,16 @@
+# filename: ex001.rq
+# List of transition elements, their electronegativity, atomic mass, electronic structure
+
+PREFIX ae: <http://semantic.iitm.ac.in/AlloyOnto/Elements#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?element (str(?b) as ?number) (str(?c) as ?electronegativity) (str(?d) as ?AtomicMass) ?ElectronicStructure (str(?f) as ?group)
+FROM <http://semantic.iitm.ac.in/AlloyOnto/Elements/elements-inferences.owl>
+WHERE
+{ 
+  ?element ae:is_transition_metal "true"^^xsd:boolean . 
+  OPTIONAL { ?element ae:number ?b . }
+  OPTIONAL { ?element ae:electronegativity ?c .}
+  OPTIONAL { ?element ae:atomic_mass ?d .}
+  OPTIONAL { ?element ae:electronic_structure ?ElectronicStructure . }
+  OPTIONAL { ?element ae:group ?f .}
+} ORDER BY ?b 

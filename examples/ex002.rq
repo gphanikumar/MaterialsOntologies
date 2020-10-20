@@ -1,0 +1,17 @@
+# filename: ex001.rq
+# List of elements whose atomic radius is close to that of iron
+# We choose 15% as the window
+
+PREFIX ae: <http://semantic.iitm.ac.in/AlloyOnto/Elements#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?iron (str(?ri) as ?iron_radius) ?element (str(?ei) as ?element_radius) (str(abs(?ei-?ri)*100/?ei) as ?percent_diff)
+FROM <http://semantic.iitm.ac.in/AlloyOnto/Elements/elements-inferences.owl>
+WHERE
+{ 
+  ?iron ae:long_name "Iron" .
+  ?element rdf:type ae:Elements .
+  ?iron ae:atomic_radius ?ri .
+  ?element ae:atomic_radius ?ei .
+  FILTER(abs(?ei-?ri) < 0.15*?ei)
+}
