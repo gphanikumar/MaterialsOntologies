@@ -113,38 +113,100 @@ The following instances are listed as top concepts for the scheme mc:MaterialsPa
       mc:MaterialsParameters skos:hasTopConcept mc:ProcessCondition
       mc:MaterialsParameters skos:hasTopConcept mc:ThermoPhysicalProperty
 
-### Process
-The class mc:Process has instances that indicate different processing techniques used in the materials domain. For example:
+### Materials Processing
 
-      mc:InvestmentCasting is an instance under the class mc:Process
+The hierarchy of materials processing techniques including manufacturing processes is categorized in this scheme.
 
-As of now, processes are organized in SubClasses such as Bulk Deformation Processes, Casting Processes, Grinding Processes, High Energy Rate Forming, Machining, Sheet Metal Working and Welding.
+      mc:MaterialsProcessing rdf:type skos:ConceptScheme
 
-### Technique
-The class mc:Technique has instances that indicate a way to use a tool to calculate or experimentally measure a parameter. For example:
+For example, GTAW is a Materials Processing concept. This can be categorized as follows:
 
-      mc:CALPHAD is an instance under the class mc:Technique
+      mc:GTAW rdf:type skos:Concept
+      mc:GTAW skos:inScheme mc:MaterialsProcessing
+      mc:GTAW skos:broader mc:ArcWelding
 
-### Tool
-The class mc:Tool has instances that can be either Computational or Experimental in nature. The instances are organized under these two SubClasses for convenience. For example:
+The following instances are listed as top concepts for the scheme mc:MaterialsProcessing as points of entry for navigation.
 
-      mc:ThermoCalc is an instance under the classes mc:Tool and mc:ComputationalThermodynamics
-      mc:OpticalMicroscope is an instance under the classes mc:Tool and mc:Experimental
+      mc:MaterialsProcessing skos:hasTopConcept mc:AdditiveProcesses
+      mc:MaterialsProcessing skos:hasTopConcept mc:BulkDeformationProcesses
+      mc:MaterialsProcessing skos:hasTopConcept mc:CastingProcesses
+      mc:MaterialsProcessing skos:hasTopConcept mc:Grinding
+      mc:MaterialsProcessing skos:hasTopConcept mc:HeatTreatment
+      mc:MaterialsProcessing skos:hasTopConcept mc:HighEnergyRateForming
+      mc:MaterialsProcessing skos:hasTopConcept mc:Machining
+      mc:MaterialsProcessing skos:hasTopConcept mc:SheetMetalWorking
+      mc:MaterialsProcessing skos:hasTopConcept mc:Welding
+
+Any manufacturing process can be listed in this scheme under appropriate individual to preserve the hierarchy.
+
+### Materials Technique
+
+We understand the difference between a tool and a technique as follows: "A tool offers a technique that allows for determination of a parameter". A tool is like an experimental equipment or a computational software while a technique refers to the methodology employed by the tool to determine a materials parameter. 
+
+Materials techniques are referred to be under the following scheme.
+
+      mc:MaterialsTechnique rdf:type skos:ConceptScheme
+
+For example, CALPHAD is a technique employed by software such as Thermo-Calc to calculate thermodynamic parameters.
+
+      mc:CALPHAD rdf:type skos:Concept
+      mc:CALPHAD skos:inScheme mc:MaterialsTechnique
+
+The following instances are listed as top concepts for the scheme mc:MaterialsTechnique as points of entry for navigation.
+
+      mc:MaterialsProcessing skos:hasTopConcept mc:DataAnalysis
+      mc:MaterialsProcessing skos:hasTopConcept mc:CALPHAD
+      mc:MaterialsProcessing skos:hasTopConcept mc:Measurement
+      mc:MaterialsProcessing skos:hasTopConcept mc:SolutionOfPDE
+
+Any procedure or methodology to calculate a parameter can be listed in this scheme.
+
+### Materials Tool
+
+A tool can be either Computational or Experimental in nature. All tools that are used to determine a materials parameter can be listed in this scheme.
+
+      mc:MaterialsTool rdf:type skos:ConceptScheme
+
+In this scheme, we list tools in a hierarchy as follows.
+
+      mc:ThermoCalc rdf:type skos:Concept
+      mc:ThermoCalc skos:inScheme mc:MaterialsTool
+      mc:ThermoCalc skos:broader mc:ComputationalTools
+      mc:DifferentialScanningCalorimeter rdf:type skos:Concept
+      mc:DifferentialScanningCalorimeter skos:inScheme mc:MaterialsTool
+      mc:DifferentialScanningCalorimeter skos:broader mc:ExperimentalTools
+
+The following instances are listed a s top concepts for this scheme as points of entry for navigation.
+
+      mc:MaterialsTool skos:hasTopConcept mc:ExperimentalTools
+      mc:MaterialsTool skos:hasTopConcept mc:ComputationalTools
 
 ## Object properties
 
+The rationale for naming the relationships is to take the first two characters of the subject and object while the relation rdfs:label will contain the full name of the relationship. Eg., CoPa would be a name for the predicate (relationship) that would have Concept as subject and Parameter as object. Following is a list of relationships that are created in the name space mc: for convenience of relating various categories of concepts in this ontology. It is recommended that the relationship is mapped to the broadest concept possible. This is because, as you would see below, a super class axiom is used pass on the relationship to the concepts that are narrower to the object to which the original relationship is asserted.
+
+The Domain and Range for all these object properties is skos:Concept. 
+
 ### Concept + Parameter
-Concepts have equations involving parameters. Conversely, a parameter is involved in the equation for a concept.
 
-      mc:hasEquationInvolving has mc:Concept as Domain and mc:Parameters as Range
-      mc:isInvolvedInEquationFor is an inverse of this property.
+**Co**ncepts have equations involving **Pa**rameters. 
 
-If we want to state that the concept of Hall-Petch equation involves grain size, we can use the following triple.
+      mc:CoPa rdfs:label "concept involved in equation for parameter"
+      Source is a concept listed in scheme mc:MaterialsConcept
+      Target is a concept listed in scheme mc:MaterialsParameter
 
-      mc:HallPetchRelationship mc:hasEquationInvolving mc:GrainSize
+For example, the concepts of non-dimensional numbers can be related to thermophysical parameters that are contained in them as follows.
 
+      mc:BiotNumber mc:CoPa mc:ThermalConductivityOfSolid
+      mc:FourierNumber mc:CoPa mc:ThermalDiffusivity
+
+The inverse property is defined as follows.
+
+      mc:PaCo rdfs:label "parameter involved in equation for concept"
+      mc:PaCo owl:inverseOf mc:CoPa
 
 ### Concept + Behavior
+
 Certain concepts or equations or conditions are applicable during certain physical behavior of materials. Conversely, a behavior could invole a certain concept as per our understanding.
 
       mc:isApplicableDuring has mc:Concept as Domain and mc:Behavior as Range
