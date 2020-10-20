@@ -1,25 +1,44 @@
 # ConceptOnto
 
-Here we document the ontology ConceptOnto. This ontology will represent the following aspects of Materials Domain: Concepts, Behavior, Parameters, Tools, Techniques, Processes and Defects. The different classes defined in this ontology and the relationships will be detailed here. 
+Here we document the ontology ConceptOnto which builds on the [skos](http://www.w3.org/2004/02/skos/core) vocabulary. This ontology will represent the following aspects of Materials Domain: Materials Concepts, Material Behavior, Material Parameters, Tools, Techniques, Materials Processes and Material Defects. These are implemented as concept schemes. All the instances are organized in a hierarchy of concepts. The different classes defined in this ontology and the relationships will be detailed here. 
 
 Following prefix is used for individuals in this page.
 
-      PREFIX mc: <http://semantic.iitm.ac.in/ConceptOnto/MaterialsConcepts#>
+      PREFIX mc: <http://semantic.iitm.ac.in/ConceptOnto#>
+Other prefixes used in this ontology are as follows.
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+      PREFIX owl: <http://www.w3.org/2002/07/owl#>
+      PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 ## Classes
-All instances in the ontology ConceptOnto will fall into the following classes.
-Equivalent class definitions are defined based on certain relationships as described below.
+We use only two classes, namely skos:Concept and skos:ConceptScheme. Individuals in the name space mc: that correspond to concepts of various kind are instances of skos:Concept. Individuals in the name space mc: that correspond to the scheme of categorization are instances of skos:ConceptScheme.
 
-### Behavior
-The class mc:Behavior has instances that indicate behavior of materials such as physical phenomena. For example:
+The schemes of categorization are described below in details.
 
-      mc:AlloySolidification is an instance under the class mc:Behavior
+### Materials Behavior
+All concepts that come under Materials Behavior will be categorized under the following scheme.
+     mc:MaterialsBehavior a skos:ConceptScheme
 
-As of now, instances are defined under SubClasses such as Cracking, Deformation, Diffraction, Diffusion, Fluid Flow, Heat Transfer, Mass Transfer, Phase Change, Reaction, Thermodynamic Equilibrium and Transport Phenomena.
+For example, solidification is a material behavior concept. This is expressed as:
+     mc:Solidification rdf:type skos:Concept
+     mc:Solidification skos:inScheme mc:MaterialsBehavior
 
-Transport Phenomena is a SubClass which is a union of Diffusion, Fluid Flow, Heat Transfer, Mass Transfer and Reaction.
+Broader/narrower concepts are described using the skos vocabulary. For example:
+     mc:AlloySolidification rdf:type skos:Concept
+     mc:AlloySolidification skos:inScheme mc:MaterialsBehavior
+     mc:AlloySolidification skos:broader mc:Solidification
 
-### Concept
+The following instances are listed as skos:topConcept for the scheme mc:MaterialsBehavior.
+     mc:MaterialsBeavior skos:topConceptOf mc:ThermodynamicEquilibrium
+     mc:MaterialsBeavior skos:topConceptOf mc:Diffusion
+     mc:MaterialsBeavior skos:topConceptOf mc:TransportPhenomena
+     mc:MaterialsBeavior skos:topConceptOf mc:PhaseChange
+     mc:MaterialsBeavior skos:topConceptOf mc:Diffraction
+     mc:MaterialsBeavior skos:topConceptOf mc:Deformation
+
+### Materials Concept
 The class mc:Concept has instances that indicate a physical understanding or representation of a behavior. SubClasses defined are Criterion, Dimensionless Number, Effects, Equation, Instability, Laws, Mechanism, Model, Paradox, Principles, Relation, Rules, Theorem and Theory. For example:
 
       mc:AbsoluteStabilityCriterion is an instance under the class mc:Concept
