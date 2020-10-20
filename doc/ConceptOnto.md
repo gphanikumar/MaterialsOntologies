@@ -183,7 +183,7 @@ The following instances are listed a s top concepts for this scheme as points of
 
 ## Object properties
 
-The rationale for naming the relationships is as follows. We take the first two characters of the subject and object to create the name while the relation rdfs:label will point to the full name of the relationship. 
+The rationale for naming the relationships is as follows. We take the first two characters of the schemes in which the subject and object are categorized to create the name while the relation rdfs:label will point to the full name of the relationship. 
 
 Eg., CoPa would be a name for the predicate (relationship) that would have Concept as subject and Parameter as object. Following is a list of relationships that are created in the name space mc: for convenience of relating various categories of concepts in this ontology. It is recommended that the relationship is mapped to the broadest concept possible. This is because, as you would see below, a super class axiom is used pass on the relationship to the concepts that are narrower to the object to which the original relationship is asserted.
 
