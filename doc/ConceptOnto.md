@@ -85,6 +85,7 @@ For example, Chevron cracking is a defect that arises during extrusion process. 
 
       mc:ChevronCracking rdf:type skos:Concept
       mc:ChevronCracking skos:inScheme mc:MaterialsDefect
+      mc:ChevronCracking skos:broader mc:ExtrusionDefect
 
 The following instances are listed as top concepts for the scheme mc:MaterialsDefect as points of entry for navigation.
 
@@ -92,13 +93,24 @@ The following instances are listed as top concepts for the scheme mc:MaterialsDe
       mc:MaterialsDefect skos:hasTopConcept mc:ExtrusionDefect
       mc:MaterialsDefect skos:hasTopConcept mc:CastingDefect
 
-### Parameters
-The class mc:Parameters has instances that indicate parameters, variables, constants and process conditions that are useful in describing a process or in defining concept or an equation. For example:
+### Materials Parameters
 
-      mc:MassDensity is an instance under the class mc:Parameters
-      mc:GrainSize is an instance under the class mc:Parameters
+Parameters or variables of all kinds are listed under this scheme.
 
-As for now, parametesr are organized in Subclasses such as Empirical, Measured Quantity, Model Parameter, Physical Property, Process Condition, Thermodynamic Property and Universal Constants.
+      mc:MaterialsParameters rdf:type skos:ConceptScheme
+
+For example, Thermal Diffusivity is a Materials Parameter. This can be categorized as follows:
+
+      mc:ThermalDiffusivity rdf:type skos:Concept
+      mc:ThermalDiffusivity skos:inScheme mc:MaterialsParameter
+      mc:ThermalDiffusivity skos:broader mc:ThermoPhysicalProperty
+
+The following instances are listed as top concepts for the scheme mc:MaterialsParameters as points of entry for navigation.
+
+      mc:MaterialsParameters skos:hasTopConcept mc:UniversalConstants
+      mc:MaterialsParameters skos:hasTopConcept mc:Descriptor
+      mc:MaterialsParameters skos:hasTopConcept mc:ProcessCondition
+      mc:MaterialsParameters skos:hasTopConcept mc:ThermoPhysicalProperty
 
 ### Process
 The class mc:Process has instances that indicate different processing techniques used in the materials domain. For example:
