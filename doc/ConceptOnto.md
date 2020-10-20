@@ -5,7 +5,9 @@ Here we document the ontology ConceptOnto which builds on the [skos](http://www.
 Following prefix is used for individuals in this page.
 
       PREFIX mc: <http://semantic.iitm.ac.in/ConceptOnto#>
+
 Other prefixes used in this ontology are as follows.
+
       PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
       PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
       PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
