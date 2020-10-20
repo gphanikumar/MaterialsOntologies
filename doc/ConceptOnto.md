@@ -202,6 +202,11 @@ For example, the concepts of non-dimensional numbers can be related to thermophy
       mc:BiotNumber mc:CoPa mc:ThermalConductivityOfSolid
       mc:FourierNumber mc:CoPa mc:ThermalDiffusivity
 
+When rendered using the rdfs:label, the above to axioms would appear to be as follows:
+
+      "Biot number" "concept involved in equation for parameter" "Thermal conductivity of solid"
+      "Fourier number" "concept involved in equation for parameter" "Thermal diffusivity"
+
 The inverse property is defined as follows.
 
       mc:PaCo rdfs:label "parameter involved in equation for concept"
