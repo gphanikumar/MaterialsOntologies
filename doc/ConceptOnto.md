@@ -287,6 +287,11 @@ Example:
       mc:ThermoCalc mc:ToTe mc:CALPHAD
       mc:OpticalMicroscope mc:ToTe mc:QuantitativeMetallography
 
+When rendered using the rdfs:label, the above axioms would read as follows:
+
+      "Thermo-Calc suite" "tool offers technique" "CALPHAD technique"
+      "Optical microscope" "tool offers technique" "Quantitative metallography"
+
 Conversely, a technique is offered by a tool.
 
       mc:TeTo rdfs:label "technique offered by tool" 
