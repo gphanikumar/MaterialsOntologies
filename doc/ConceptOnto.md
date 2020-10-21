@@ -260,6 +260,7 @@ Here are few examples of defects that typically form in certain processes.
       mc:CoreShift mc:DePr mc:SandCasting
 
 When rendered using the rdfs:label, the above axioms would read as follows:
+
      "Chevron cracking" "defect forms in process" "Direct extrusion"
      "Core shift" "defect forms in process" "Sand casting"
 
@@ -278,9 +279,11 @@ Processes are described by parameters. Conversely, parameters are conditions of 
 ### Tool + Technique
 
 Tools offer techniques. 
+
       mc:ToTe rdfs:label "tool offers technique" 
 
 Example:
+
       mc:ThermoCalc mc:ToTe mc:CALPHAD
       mc:OpticalMicroscope mc:ToTe mc:QuantitativeMetallography
 
