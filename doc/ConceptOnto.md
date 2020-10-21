@@ -327,14 +327,22 @@ Conversely, parameter measurements are provided by certain techniques.
 
 ### Behavior + Process
 
-Certain behavior of materials take place during certain processes. Conversely, certain processes involve certain behavior of materials.
+Certain behavior of materials take place during certain processes. 
 
-      mc:takesPlaceDuring has mc:Behavior as Domain and mc:Process as Range
-      mc:involves is an inverse of this property
+      mc:BePr rdfs:label "material behavior takes place during process"
 
-For example, we can say that the directional behavior of solidication phenomenon takes place during a *process* such as Bridgmann technique. We should actually call it as Bridgmann process to be clear. This is expressed as a triple given below.
+Following are few examples.
 
-      mc:DirectionalSolidification mc:takesPlaceDuring mc:BridgmannTechnique
+      mc:RapidSolidification mc:BePr mc:MeltSpinning
+
+When rendered using rdfs:label, the above axiom would read as follows:
+
+      "Rapid solidification" "material behavior takes place during process" "Melt spinning"
+
+Conversely, certain processes involve certain behavior of materials.
+
+       mc:PrBe rdfs:label "process involves material behavior"
+       mc:BePr owl:inverseOf mc:PrBe
 
 ## Relationships of relationships
 
