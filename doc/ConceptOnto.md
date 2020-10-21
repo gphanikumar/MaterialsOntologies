@@ -239,17 +239,6 @@ Conversely, a material **Be**havior could invole a certain **Co**ncept as per ou
       mc:BeCo rdfs:label "material behavior could involve concept"
       mc:BeCo owl:inverseOf mc:CoBe
 
-### Concept + Process
-
-Materials **Co**ncepts are related to certain Material **Pr**ocesses. 
-
-      mc:CoPr rdfs:label "concept involved in process"
-
-Conversely, a process could involve a certain concept.
-
-      mc:PrCo rdfs:label "process involves concept"
-      mc:CoPr owl:inverseOf mc:PrCo
-
 ### Defect + Process
 
 Often, **De**fects in materials arise out of certain **Pr**ocesses.
@@ -381,6 +370,39 @@ We also define the inverse relationship to make further inferences.
 
       mc:PaTo rdfs:label "parameter determines by technique offered by tool"
       mc:PaTo owl:inverseOf mc:ToPa
+
+### Concept + Process via Behavior
+
+Here, we take a view that theoretical knowledge (Materials Concepts) relate to explain or understand Material Behavior which in turn plays a role in a Materials Process. Thus, in stead of directly relating Materials Concepts to Materials Process, we hop via Material Behavior. As mentioned above, this is only an enabler to make further entailments but does not stop us from making assertion directly. 
+
+We define the property chain as follows:
+
+      mc:CoPr rdfs:label "concept involved in process"
+      mc:CoBe o mc:BePr -> mc:CoPr
+
+Conversely, a process could involve (via material behavior), a certain concept.
+
+      mc:PrCo rdfs:label "process involves concept"
+      mc:CoPr owl:inverseOf mc:PrCo
+
+Consider the following example to illustrate this relation.
+
+      mc:ScheilEquation mc:CoBe mc:AlloySolidification
+      mc:ContinuousCasting mc:PrBe mc:AlloySolidification
+
+The relations in the property chain also have their inverse relations defined already. Hence, when we use the Pellet reasoner, these two axioms can entail the following inference:
+
+      mc:ScheilEquation mc:CoPr mc:ContinuousCasting
+
+When rendered using rdfs:label, these statements will read as follows:
+
+      "Scheil equation" "concept is applicable during material behavior" "Alloy solidification" 
+      "Continuous casting" "process involves material behavior" "Alloy solidification"
+
+leading to entailment of the statements:
+
+      "Continuous casting" "process involves concept" "Scheil equation"
+      "Scheil equation" "concept involved in process" "Continuous casting"
 
 ## Equivalent classes
 
