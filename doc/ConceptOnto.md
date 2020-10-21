@@ -415,7 +415,7 @@ leading to entailment of the statements:
 
 ## Transitive property chains
 
-As mentioned above, useful entailments can be obtained from the reaonser if we can combine the "has narrower transitive' property in skos: with the above listed 9 properties of this ontology. Lets say, a relation (say mc:r) is mapped from individual-1 (say, mc:i1) to individual-2 (say, mc:i2). This is expressed using a template triple as follows:
+As mentioned above, useful entailments can be obtained from the reasoner if we can combine the "has narrower transitive' property in skos: with the above listed 9 properties of this ontology. Lets say, a relation (say mc:r) is mapped from individual-1 (say, mc:i1) to individual-2 (say, mc:i2). This is expressed using a template triple as follows:
 
       mc:i1 mc:r mc:i2
 
