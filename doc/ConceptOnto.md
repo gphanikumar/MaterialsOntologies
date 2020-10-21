@@ -262,10 +262,19 @@ Conversely, certain defects form in certain processes.
 
 ### Parameter + Process
 
-Processes are described by parameters. Conversely, parameters are conditions of certain processes.
+Processes are described by parameters. 
 
-      mc:isProcessConditionOf has mc:Parameters as Domain and mc:Process as Range
-      mc:describedByParameter is an inverse of this property
+      mc:PrPa rdfs:label "process described by parameter"
+      mc:PaPr rdfs:label "parameter is condition of process"
+      mc:PrPa owl:inverseOf mc:PaPr
+
+Here is an example of usage of this relation.
+
+      mc:CoolingRate mc:PaPr mc:MeltSpinning
+
+When rendered using rdfs:label, this axiom would read as follows:
+
+      "Cooling rate" "parameter is condition of process" "Melt spinning"
 
 ### Tool + Technique
 
