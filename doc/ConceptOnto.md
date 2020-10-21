@@ -227,6 +227,11 @@ An example instance is as follows:
       mc:AvramiEquation mc:CoBe mc:PhaseChange
       mc:AbsoluteStabilityCriterion mc:CoBe mc:RapidSolidification
 
+When rendered using the rdfs:label, the above axioms would read as follows:
+
+      "Avrami equation" "concept is applicable during material behavior" "Phase change"
+      "Absolute Stability Criterion" "concept is applicable during material behavior" "Rapid solidification"
+
 Conversely, a material **Be**havior could invole a certain **Co**ncept as per our understanding.
 
       mc:BeCo rdfs:label "material behavior could involve concept"
@@ -254,11 +259,14 @@ Here are few examples of defects that typically form in certain processes.
       mc:ChevronCracking mc:DePr mc:DirectExtrusion
       mc:CoreShift mc:DePr mc:SandCasting
 
+When rendered using the rdfs:label, the above axioms would read as follows:
+     "Chevron cracking" "defect forms in process" "Direct extrusion"
+     "Core shift" "defect forms in process" "Sand casting"
+
 Conversely, certain defects form in certain processes.
 
       mc:PrDe rdfs:label "process leads to defect"
       mc:DePr owl:inverseOf mc:PrDe
-
 
 ### Parameter + Process
 
