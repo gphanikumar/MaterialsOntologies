@@ -352,6 +352,8 @@ Property chains are relationships over relationships. We can navigate across the
 
 Here, we take a view that a tool offers a technique which determines a parameter. This does not stop us from making assertions directly relating a tool with a parameter. It is just a philosophical aspect that there should be a technique in between that enables such a relation. 
 
+I recommend that we take this hop via Technique for the following reason. A number of tools can offer the same technique which can determine a number of parameters. By relating these pairs of concepts separately, we reduce the number of assertions that need to be made.
+
 We relate a Tool to a Parameter via Technique by defining the following property chain.
 
       mc:ToPa rdfs:label "tool offers a technique that determines parameter"
