@@ -243,21 +243,14 @@ Conversely, a process could involve a certain concept.
       mc:PrCo rdfs:label "process involves concept"
       mc:CoPr owl:inverseOf mc:PrCo
 
-
-### Parameter + Process
-
-Processes are described by parameters. Conversely, parameters are conditions of certain processes.
-
-      mc:isProcessConditionOf has mc:Parameters as Domain and mc:Process as Range
-      mc:describedByParameter is an inverse of this property
-
 ### Defect + Process
 
 Often, **De**fects in materials arise out of certain **Pr**ocesses.
 
       mc:DePr rdfs:label "defect forms in process"
 
-Example:
+Here are few examples of defects that typically form in certain processes.
+
       mc:ChevronCracking mc:DePr mc:DirectExtrusion
       mc:CoreShift mc:DePr mc:SandCasting
 
@@ -265,6 +258,14 @@ Conversely, certain defects form in certain processes.
 
       mc:PrDe rdfs:label "process leads to defect"
       mc:DePr owl:inverseOf mc:PrDe
+
+
+### Parameter + Process
+
+Processes are described by parameters. Conversely, parameters are conditions of certain processes.
+
+      mc:isProcessConditionOf has mc:Parameters as Domain and mc:Process as Range
+      mc:describedByParameter is an inverse of this property
 
 ### Tool + Technique
 
