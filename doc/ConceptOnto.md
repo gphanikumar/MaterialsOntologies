@@ -350,21 +350,29 @@ Property chains are relationships over relationships. We can navigate across the
 
 ### Tool + Parameter 
 
-We go from Tool to Parameter via Technique by defining the following property chain.
+Here, we take a view that a tool offers a technique which determines a parameter. This does not stop us from making assertions directly relating a tool with a parameter. It is just a philosophical aspect that there should be a technique in between that enables such a relation. 
 
-      mc:offersTechnique o mc:providesMeasurementOf -> offersTechniqueThatProvidesMeasurementOf
-      mc:measurementProvidedByTechniqueOfferedByTool is an inverse of this property
+We relate a Tool to a Parameter via Technique by defining the following property chain.
+
+      mc:ToPa rdfs:label "tool offers a technique that determines parameter"
+      mc:ToTe o mc:TePa -> mc:ToPa
 
 For example, consider the following triples:
 
-      mc:ThermoCalc mc:offersTechnique mc:CALPHAD
-      mc:CALPHAD mc:providesMeasurementOf mc:HeatCapacityAtConstantPressure
+      mc:ThermoCalc mc:ToTe mc:CALPHAD
+      mc:CALPHAD mc:TePa mc:MolarVolume
 
-when we use the Pellet reasoner, we can find the following inference as a triple:
+When we use the Pellet reasoner, these can ential the following inference:
 
-      mc:ThermoCalc mc:offersTechniqueThatProvidesMeasurementOf mc:HeatCapacityAtConstantPressure
+      mc:ThermoCalc mc:ToPa mc:MolarVolume
 
-In plain English, this can be stated as follows: Thermo Calc is a tool that offers a technique CALPHAD using which one can calculate a parameter such as heat capacity at constant pressure.
+When rendered using rdfs:label, these statements will read as follows:
+      "Thermo-Calc suite" "tool offers technique" "CALPHAD"
+      "CALPHAD" "technique determines parameter" "Molar volume"
+
+The inference can be read as:
+
+      "Thermo-Calc suite" "tool offers a technique that determines parameter" "Molar volume"
 
 ## Equivalent classes
 
