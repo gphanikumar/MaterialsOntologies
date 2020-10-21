@@ -367,6 +367,7 @@ When we use the Pellet reasoner, these can ential the following inference:
       mc:ThermoCalc mc:ToPa mc:MolarVolume
 
 When rendered using rdfs:label, these statements will read as follows:
+
       "Thermo-Calc suite" "tool offers technique" "CALPHAD"
       "CALPHAD" "technique determines parameter" "Molar volume"
 
