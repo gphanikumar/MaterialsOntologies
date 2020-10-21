@@ -218,14 +218,19 @@ The inverse property is defined as follows.
 
 ### Concept + Behavior
 
-Certain concepts or equations or conditions are applicable during certain physical behavior of materials. Conversely, a behavior could invole a certain concept as per our understanding.
+Certain **Co**ncepts or equations or conditions are applicable during certain physical **Be**havior of materials. 
 
-      mc:isApplicableDuring has mc:Concept as Domain and mc:Behavior as Range
-      mc:couldInvove is an inverse of this property.
+      mc:CoBe rdfs:label "concept is applicable during material behavior"
 
-If we wish to state that the absolute stability criterion for planar solidification is applicable during rapid solidification behavior, we can use the following triple.
+An example instance is as follows:
 
-      mc:AbsoluteStabilityCriterion mc:isApplicableDuring mc:RapidSolidification
+      mc:AvramiEquation mc:CoBe mc:PhaseChange
+      mc:AbsoluteStabilityCriterion mc:CoBe mc:RapidSolidification
+
+Conversely, a material **Be**havior could invole a certain **Co**ncept as per our understanding.
+
+      mc:BeCo rdfs:label "material behavior could involve concept"
+      mc:BeCo owl:inverseOf mc:CoBe
 
 ### Concept + Process
 
