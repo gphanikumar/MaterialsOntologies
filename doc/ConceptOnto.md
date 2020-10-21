@@ -234,10 +234,15 @@ Conversely, a material **Be**havior could invole a certain **Co**ncept as per ou
 
 ### Concept + Process
 
-Concepts are related to certain processes. Conversely, a process could involve a certain concept.
+Materials **Co**ncepts are related to certain Material **Pr**ocesses. 
 
-      mc:isConceptRelatingToProcess has mc:Concept as Domain and mc:Process as Range
-      mc:isProcessInvolvingConcept is an inverse of this property
+      mc:CoPr rdfs:label "concept involved in process"
+
+Conversely, a process could involve a certain concept.
+
+      mc:PrCo rdfs:label "process involves concept"
+      mc:CoPr owl:inverseOf mc:PrCo
+
 
 ### Parameter + Process
 
@@ -246,16 +251,36 @@ Processes are described by parameters. Conversely, parameters are conditions of 
       mc:isProcessConditionOf has mc:Parameters as Domain and mc:Process as Range
       mc:describedByParameter is an inverse of this property
 
-### Process + Defect
+### Defect + Process
 
-Certain processes lead to certain defects. Conversely, certain defects form in certain processes.
+Often, **De**fects in materials arise out of certain **Pr**ocesses.
 
-      mc:leadsToDefect has mc:Process as Domain and mc:Defect as Range
-      mc:formsInProcess is an inverse of this property
+      mc:DePr rdfs:label "defect forms in process"
+
+Example:
+      mc:ChevronCracking mc:DePr mc:DirectExtrusion
+      mc:CoreShift mc:DePr mc:SandCasting
+
+Conversely, certain defects form in certain processes.
+
+      mc:PrDe rdfs:label "process leads to defect"
+      mc:DePr owl:inverseOf mc:PrDe
 
 ### Tool + Technique
 
-Tools offer techniques. Conversely, techniques are offered by tools.
+Tools offer techniques. 
+      mc:ToTe rdfs:label "tool offers technique" 
+
+Example:
+      mc:ThermoCalc mc:ToTe mc:CALPHAD
+      mc:OpticalMicroscope mc:ToTe mc:QuantitativeMetallography
+
+Conversely, a technique is offered by a tool.
+
+      mc:TeTo rdfs:label "technique offered by tool" 
+      mc:ToTe owl:inverseOf mc:TeTo
+
+Conversely, techniques are offered by tools.
 
       mc:offersTechnique has mc:Tool as Domain and mc:Technique as Range
       mc:offeredByTool is an inverse of this property
