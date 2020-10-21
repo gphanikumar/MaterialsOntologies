@@ -262,7 +262,7 @@ Conversely, certain defects form in certain processes.
 
 ### Parameter + Process
 
-Processes are described by parameters. 
+Processes are described by parameters. Conversely, parameters are conditions of a process.
 
       mc:PrPa rdfs:label "process described by parameter"
       mc:PaPr rdfs:label "parameter is condition of process"
@@ -412,6 +412,30 @@ leading to entailment of the statements:
 
       "Continuous casting" "process involves concept" "Scheil equation"
       "Scheil equation" "concept involved in process" "Continuous casting"
+
+## Transitive property chains
+
+As mentioned above, useful entailments can be obtained from the reaonser if we can combine the "has narrower transitive' property in skos: with the above listed 9 properties of this ontology. Lets say, a relation (say mc:r) is mapped from individual-1 (say, mc:i1) to individual-2 (say, mc:i2). This is expressed using a template triple as follows:
+
+      mc:i1 mc:r mc:i2
+
+Now if individual-3 (say, mc:i3) is categorized as a narrower concept under individual-2 as expressed below:
+
+      mc:i3 skos:broader mc:i2
+
+Then one can say that the following entailment is reasonable.
+
+      mc:i1 mc:r mc:i3
+
+To make entailments such as these possible, transitive relationships are defined similar to the skos: vocabulary. The naming of these relationship is done by adding "Tr" after the four character name as mentioned above. For all the above relations, such property chains are created as given in the following example:
+
+      mc:ToTeTr rdfs:label "tool offers technique transitive"
+
+We define mc:ToTe as a super Property of the chain as follows:
+      mc:ToTe o skos:narrowerTransitive -> mc:ToTe
+      mc:ToTe owl:subPropertyOf mc:ToTeTr 
+
+I recommend that one should not make assertions using these relationships. One should only consider entailments using these relations to explore relationships where appropriate. The word "transitive" should signal the user that the inferences are coming from these property chains.
 
 ## Equivalent classes
 
