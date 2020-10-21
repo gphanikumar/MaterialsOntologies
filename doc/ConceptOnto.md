@@ -437,56 +437,6 @@ We define mc:ToTe as a super Property of the chain as follows:
 
 I recommend that one should not make assertions using these relationships. One should only consider entailments using these relations to explore relationships where appropriate. The word "transitive" should signal the user that the inferences are coming from these property chains.
 
-## Equivalent classes
-
-We can place instances in certain classes based on their properties. Once such class definitions are made, the reasoner will take care of placing the appropriate instances in the defined classes.
-
-### Using Behavior to classify Concepts
-
-Deformation concept is a class that contains all those concepts that have a property of being applicable during a physical behavior which is classified under deformation behavior. This is defined using the following statement.
-
-      mc:DeformationConcept equivalent to mc:Concept and (mc:isApplicableDuring some mc:Deformation)
-
-Using this definition, von Mises criterion can be classified under Deformation Concept because there is a property definition that says von Mises critrion is applicable during yielding which is places in the SubClass of Deformation under Behavior.
-
-Similarly, Materials Characterization Concept is defined using the following definition. These can be expanded as we add more instances and their properties.
-
-      mc:MaterialsCharacterizationConcept equivalent to mc:Concept and (mc:isApplicableDuring some mc:Diffraction)
-
-Here are some more such definitions.
-
-      mc:PhaseTransformationsConcept equivalent to mc:Concept and (mc:isApplicableDuring some mc:PhaseChange)
-      mc:SolidificationConcept equivalent to mc:Concept and (mc:isApplicableDuring some mc:Solidification)
-      mc:ThermodynamicsConcept equivalent to mc:Concept and (mc:isApplicableDuring some mc:ThermodynamicEquilibrium)
-      mc:TransportPhenomenaConcept equivalent to mc:Concept and (mc:isApplicableDuring some mc:TransportPhenomena)
-
-
-### Using Process to classify Defects
-
-Defects can be classified under SubClasses based on the property mc:formsInProcess pointing to a SubClass under Processes. Following categories are defined using the equivalent class definitions listed below:
- 
-     mc:CastingDefects equivalent to mc:Defect and (mc:formsInProcess some mc:CastingProcesses)
-     mc:DrawingDefect equivalent to mc:Defect and (mc:formsInProcess some mc:Drawing)
-     mc:ExtrusionDefect equivalent to mc:Defect and (mc:formsInProcess some mc:Extrusion)
-     mc:SandCastingDefect equivalent to mc:Defect and (mc:formsInProcess some ExpendableMoldCastingProcesses)
-
-### Using Tool to classify Parameter
-
-If a parameter is measured or calculated using a technique that is offered by a tool which is classified under Computational category, then one can call that parameter as a computable parameter. This is achieved using the following equivalent class defintion:
-
-      mc:Computable equivalent to (mc:measurementProvidedByTechniqueOfferedByTool some mc:Computational)
-
-Pellet would use this definition to infer that Liquidus Slope as a computable parameter because it is measured (calculated) using the CALPHAD technique which is offered by a tool, say, Thermo Calc that is categorized under the Computational type.
-
-### Using Parameter to classify a Criterion
-
-One can classify a criterion to be, say, digital criterion if it has an equation that involves a parameter inferred (from above) as computable. This is defined using the equivalent class definition as follows:
-
-      mc:DigitalCriterion equivalent to (mc:hasEquationInvolving some mc:Computable)
-
-Pellet would use this definition to infer that mc:ReynoldsNumber as a mc:DigitalCriterion because we have asserted that Reynolds number has an equation involving mass density which can be inferred (from above) as a computable parameter.
-
-
 ## The use of inverse relations
 
 While navigating the knowledge graph, the inverse relations defined help in showing instances that one may not be looking for. Thus, ontologies help a learner discover more as they explore.
