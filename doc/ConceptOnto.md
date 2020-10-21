@@ -432,6 +432,7 @@ To make entailments such as these possible, transitive relationships are defined
       mc:ToTeTr rdfs:label "tool offers technique transitive"
 
 We define mc:ToTe as a super Property of the chain as follows:
+
       mc:ToTe o skos:narrowerTransitive -> mc:ToTe
       mc:ToTe owl:subPropertyOf mc:ToTeTr 
 
