@@ -191,6 +191,8 @@ Eg., CoPa would be a name for the predicate (relationship) that would have **Co*
 
 I recommend that the relationship be mapped to the broadest concept possible. This is because, as you would see below, a super class axiom is used pass on the relationship to the concepts that are narrower to the object to which the original relationship is asserted. A reasoning engine such as Pellet would then provide the entailments as applicable. The section on transitive relations has examples to explain this better.
 
+The statements that can be constructed using the triple "subject-predicate-object" with the help of rdfs:label will sound very close to (albeit not perfect) English sentences.
+
 The Domain and Range for all the object properties we defined in this ontology is skos:Concept. 
 
 ### Concept + Parameter
@@ -289,7 +291,7 @@ Example:
 
 When rendered using the rdfs:label, the above axioms would read as follows:
 
-      "Thermo-Calc suite" "tool offers technique" "CALPHAD technique"
+      "Thermo-Calc suite" "tool offers technique" "CALPHAD"
       "Optical microscope" "tool offers technique" "Quantitative metallography"
 
 Conversely, a technique is offered by a tool.
@@ -304,14 +306,24 @@ Conversely, techniques are offered by tools.
 
 ### Technique + Parameter
 
-Techniques provide for calculation or measurement of parameters. Conversely, parameter measurements are provided by certain techniques.
+Techniques provide for calculation or measurement of parameters. 
 
-      mc:providesMeasurementOf has mc:Tecnique as Domain and mc:Parameters as Range
-      mc:measurementProvidedBy is an inverse of this property
+      mc:TePa rdfs:label "technique determines parameter"
 
-For example, calorimetry as a technique provides measurement of thermal properties such as heat capacity at constant pressure. This can be stated using the following triple.
+Following are few examples.
 
-      mc:Calorimetry mc:providesMeasurementOf mc:HeatCapacityAtConstantPressure
+      mc:CALPHAD mc:TePa mc:MolarVolume
+      mc:QuantitativeMetallography mc:TePa mc:GrainSize
+
+When rendered using the rdfs:label, the above axioms would read as follows:
+
+      "CALPHAD" "technique determines parameter" "Molar volume"
+      "Quantitative metallography" "technique determines parameter" "Grain size"
+
+Conversely, parameter measurements are provided by certain techniques.
+
+      mc:PaTe rdfs:label "parameter determined by technique"
+      mc:TePa owl:inverseOf mc:PaTe
 
 ### Behavior + Process
 
