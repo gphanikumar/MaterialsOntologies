@@ -348,7 +348,7 @@ Conversely, certain processes involve certain behavior of materials.
 
 Property chains are relationships over relationships. We can navigate across the knowledge graph in longer hops by defining relationships over relationships. 
 
-### Tool + Parameter 
+### Tool + Parameter via Technique
 
 Here, we take a view that a tool offers a technique which determines a parameter. This does not stop us from making assertions directly relating a tool with a parameter. It is just a philosophical aspect that there should be a technique in between that enables such a relation. 
 
@@ -373,6 +373,11 @@ When rendered using rdfs:label, these statements will read as follows:
 The inference can be read as:
 
       "Thermo-Calc suite" "tool offers a technique that determines parameter" "Molar volume"
+
+We also define the inverse relationship to make further inferences.
+
+      mc:PaTo rdfs:label "parameter determines by technique offered by tool"
+      mc:PaTo owl:inverseOf mc:ToPa
 
 ## Equivalent classes
 
