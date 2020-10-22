@@ -19,6 +19,8 @@ Other prefixes used in this ontology are as follows.
 ## Classes
 We use only two classes, namely skos:Concept and skos:ConceptScheme. Individuals in the name space mc: that correspond to concepts of various kind are instances of skos:Concept. Individuals in the name space mc: that correspond to the scheme of categorization are instances of skos:ConceptScheme.
 
+![](../images/ConceptOntoMapping.png)
+
 The schemes of categorization are described below in detail.
 
 ### Materials Behavior
