@@ -191,7 +191,7 @@ The rationale for naming the relationships is as follows. We take the first two 
 
 Eg., CoPa would be a name for the predicate (relationship) that would have **Co**ncept as subject and **Pa**rameter as object. Following is a list of relationships that are created in the name space mc: for convenience of relating various categories of concepts in this ontology.
 
-I recommend that the relationship be mapped to the broadest concept possible. This is because, as you would see below, a super class axiom is used pass on the relationship to the concepts that are narrower to the object to which the original relationship is asserted. A reasoning engine such as Pellet would then provide the entailments as applicable. The section on transitive relations has examples to explain this better.
+I recommend that the relationship be mapped to the broadest concept possible. This is because, as you would see below, a super class axiom is used pass on the relationship to the concepts that are narrower to the object to which the original relationship is asserted. A reasoning engine such as Hermit would then provide the entailments as applicable. The section on transitive relations has examples to explain this better.
 
 The statements that can be constructed using the triple "subject-predicate-object" with the help of rdfs:label will sound very close to (albeit not perfect) English sentences.
 
@@ -364,7 +364,7 @@ For example, consider the following triples:
       mc:ThermoCalc mc:ToTe mc:CALPHAD
       mc:CALPHAD mc:TePa mc:MolarVolume
 
-When we use the Pellet reasoner, these can ential the following inference:
+When we use the Hermit reasoner, these can ential the following inference:
 
       mc:ThermoCalc mc:ToPa mc:MolarVolume
 
@@ -401,7 +401,7 @@ Consider the following example to illustrate this relation.
       mc:ScheilEquation mc:CoBe mc:AlloySolidification
       mc:ContinuousCasting mc:PrBe mc:AlloySolidification
 
-The relations in the property chain also have their inverse relations defined already. Hence, when we use the Pellet reasoner, these two axioms can entail the following inference:
+The relations in the property chain also have their inverse relations defined already. Hence, when we use the Hermit reasoner, these two axioms can entail the following inference:
 
       mc:ScheilEquation mc:CoPr mc:ContinuousCasting
 
